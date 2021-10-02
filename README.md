@@ -2,7 +2,7 @@
 - Python beautifulsoup 이용 네이버 영화 한줄평 및 평점 스크래핑, SQLite 이용 DB 저장
 - [블로그 포스팅 바로가기](https://6mini.github.io/did%20unknown/2021/09/19/MovieReveiw/)
 
-## 1️⃣ Web Scraping
+## Web Scraping
 - 네이버 영화 리뷰 스크래핑 함수 구현
 - TEST Movie : 샹치와 텐 링즈의 전설
 
@@ -126,7 +126,7 @@ def get_avg_stars(reviews):
 print(get_avg_stars(scrape_by_page_num('샹치'))) # 6.27
 ```
 
-## 2️⃣ Exeport SQLite
+## Exeport SQLite
 - 영화제목, 페이지 수를 받아 스크래핑한 뒤 DB에 저장
 
 ```py
